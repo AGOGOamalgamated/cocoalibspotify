@@ -190,6 +190,8 @@
 	
 	// Login form background
 	
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    
 	UIView *loginContainerView = [[UIView alloc] initWithFrame:CGRectMake(10.0, 20.0, 300.0, 185.0)];
 	loginContainerView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
 	[self.view addSubview:loginContainerView];
