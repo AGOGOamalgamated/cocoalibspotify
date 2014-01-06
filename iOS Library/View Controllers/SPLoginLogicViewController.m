@@ -284,6 +284,7 @@
 													   target:self
 													   action:@selector(performLogin:)];
 	
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
 	self.navigationItem.leftBarButtonItem = self.allowsCancel ? self.cancelButton : nil;
 	self.navigationItem.rightBarButtonItem = self.loginButton;
 	[self positionLoggingInView];
